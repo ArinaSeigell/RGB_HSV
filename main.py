@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 
 # 1
 image = cv2.imread('GettyImages-1324644587.jpg') 
+if image is None:
+    print("Ошибка: Не удалось загрузить изображение!")
+    exit()  # Завершаем программу при ошибке загрузки
+else:
+    print("Изображение успешно загружено")
 
 # 2
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
