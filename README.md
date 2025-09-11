@@ -1,6 +1,6 @@
 1. Проект демонстрирует преобразование изображения из цветового пространства RGB в HSV
 2. Как запустить:
-   1. git clone
+   1. git clone https://github.com/ArinaSeigell/RGB_HSV.git   
    2. cd RGB_HSV
    3. pip install -r requirements.txt
    4. python main.py
